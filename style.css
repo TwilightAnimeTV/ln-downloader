@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  line-height: 1.5;
+}
 body {
-    font-size: 15pt;
+  font-size: 10pt;
+}
+ul li{
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+}
+ul li a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color:#000000;
+}
+ul li a img{
+  width: inherit;
+  height: auto
+}
+ul li a p{
+  color: #000000;
+  padding: 0 5px;
+  font-size: 13pt;
 }
